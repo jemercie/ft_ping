@@ -11,8 +11,8 @@ Ping uses the ICMP protocol's mandatory **ECHO_REQUEST** datagram to elicit an *
 [protocole ICMP](https://ram-0000.developpez.com/tutoriels/reseau/ICMP/)
 ## IP header
 ```c
-                1               2
- 1 2 3 4 5 6 7 8 1 2 3 4 5 6 7 8  // bytes
+                1               2   // bytes
+ 1 2 3 4 5 6 7 8 1 2 3 4 5 6 7 8    // bits
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
 |Version|  IHL  |Type of Service|
 +-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+
