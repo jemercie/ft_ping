@@ -116,7 +116,7 @@ struct icmp
  When a router or server needs to send an **error message**, the *ICMP packet body or data section*
 **always contains a copy of the IP header** of the **packet** that **caused the error.**
 
-### Timestamp stuff [here](https://stackoverflow.com/questions/70175164/icmp-timestamps-added-to-ping-echo-requests-in-linux-how-are-they-represented-t)
+### Timestamp  [here](https://stackoverflow.com/questions/70175164/icmp-timestamps-added-to-ping-echo-requests-in-linux-how-are-they-represented-t)
 
 Including the **UNIX timestamp** of the time of transmission in the **first data
 bytes of the ICMP Echo message payload** is a *trick/optimizatio*n the original 
@@ -153,7 +153,7 @@ equipment could still be susceptible to it.*
 
 ## nice stuff
 
-### `#define` and array of strings stuff
+### `#define` and array of strings 
 we cannot make a macro (# define) of an array of strings because macros replace text 
 and are not complex dynamic objects. But, we can use a macro containing a list of strings 
 to initialize an array of strings.
@@ -236,12 +236,12 @@ your standard deviation.
 
 [doc how to compute stddev](https://www.dotcom-monitor.com/wiki/knowledge-base/standard-deviation/)
 
-## functions stuff
+## functions 
 The `inet_ntoa()` function converts the *Internet host address* in, given in *network byte order*, to a *string 
 in IPv4 dotted-decimal notation*. The string is returned in a **statically allocated buffer**, which subsequent 
 calls will overwrite. **WHICH SUBSEQUENT CALLS WILL OVERWRITE**.
 
-## socket stuff
+## socket 
 
 `socket()` create an endpoint, and return a file descriptor.
 
