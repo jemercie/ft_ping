@@ -4,7 +4,7 @@ Mike Muuss wrote this program in December 1983. Its **name** comes from the **so
 
 Ping uses the ICMP protocol's mandatory **ECHO_REQUEST** datagram to elicit an **ICMP ECHO_RESPONSE** from a *host or gateway*. ECHO_REQUEST datagrams (pings) have an **IP and ICMP header**, followed by a **“struct timeval”** and then an arbitrary number of padding bytes used to fill out the packet.
 
-**ICMP** protocol is **layer 3** bcs it's not used for data transmission or by end users but for troubleshooting and network management.
+**ICMP** protocol is **layer 3**. It's used for troubleshooting and network management.
 
 [useful article](https://gursimarsm.medium.com/customizing-icmp-payload-in-ping-command-7c4486f4a1be)
 [man ping inetutils](https://manpages.debian.org/stretch/inetutils-ping/ping.1.en.html)
